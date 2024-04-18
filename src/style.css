@@ -11,10 +11,10 @@ html {
     rgba(12, 10, 22, 0.863)
   );
 
-  --imp-text-color: #c770f0;
+  --imp-text-color: #d22020;
 }
 
-.purple {
+.red {
   color: var(--imp-text-color) !important;
 }
 
@@ -97,7 +97,7 @@ button:focus {
 
 .navbar-toggler span {
   display: block !important;
-  background-color: #be50f4 !important;
+  background-color: #d22020 !important; /* Changed to red */
   height: 4px !important;
   width: 27px !important;
   margin-top: 5px !important;
@@ -196,7 +196,7 @@ button:focus {
   height: 5px;
   width: 0;
   border-radius: 16px;
-  background: #c95bf5;
+  background: #d22020; /* Changed to red */
   bottom: 1px;
   left: 0;
   z-index: -1;
@@ -373,7 +373,7 @@ button:focus {
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  background: #68187a;
+  background: #d22020; /* Changed to red */
   transition: 0.5s;
   transform: scale(0.9);
   z-index: -1;
@@ -381,13 +381,13 @@ button:focus {
 
 .home-social-icons:hover::before {
   transform: scale(1.1);
-  box-shadow: 0 0 15px #801f95;
+  box-shadow: 0 0 15px #d22020; /* Changed to red */
 }
 
 .home-social-icons:hover {
-  color: #87209e;
-  box-shadow: 0 0 5px #87209e;
-  text-shadow: 0 0 2px #87209e;
+  color: #d22020; /* Changed to red */
+  box-shadow: 0 0 5px #d22020; /* Changed to red */
+  text-shadow: 0 0 2px #d22020; /* Changed to red */
 }
 
 .social-icons {
@@ -397,7 +397,7 @@ button:focus {
 }
 
 .icon-colour {
-  color: #700c86 !important;
+  color: #d22020 !important; /* Changed to red */
 }
 
 /* --------- */
@@ -704,8 +704,8 @@ button:focus {
 
 .like-btn:hover {
   transform: translateY(-2px) !important;
-  background-color: #a24dd386 !important;
-  border-color: #a24dd386 !important;
+  background-color: #d34d4d86 !important;
+  border-color: #d34d4d86 !important;
 }
 
 .animate-like {
@@ -729,7 +729,7 @@ button:focus {
 
 .fork-btn-inner {
   line-height: 1.4em !important;
-  background-color: #934cce5e !important;
+  background-color: #ce4c4c5e !important;
   padding: 0.25rem 1.1rem !important;
   vertical-align: middle !important;
   text-align: center !important;
@@ -737,82 +737,157 @@ button:focus {
 
 .fork-btn-inner:hover {
   transform: translateY(-2px) !important;
-  background-color: #a24dd386 !important;
-  border-color: #a24dd386 !important;
-}
-.fork-btn-inner::after {
-  display: none !important;
+  background-color: #d34d4d86 !important;
 }
 
-/* --------- */
-/* Contact */
-/* --------- */
+.fork-btn-inner a {
+  color: white !important;
+}
 
+.fork-btn-inner a:hover {
+  color: white !important;
+}
 
 .contact-section {
-  background: var(--section-background-color);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-}
-
-.contact-container {
-  background: var(--section-background-color);
-  padding: 20px;
+  position: relative !important;
+  padding-top: 150px !important;
+  padding-bottom: 30px !important;
+  background-image: var(--section-background-color) !important;
 }
 
 .contact-card {
-  background-color: white;
-  padding: 20px;
-  border-radius: 10px;
-  text-align: center;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 5px 3px rgba(119, 53, 136, 0.459) !important;
+  color: white !important;
+  background-color: transparent !important;
+  opacity: 0.9 !important;
+  transition: all 0.5s ease 0s !important;
 }
 
-.contact-card h2 {
-  color: #333; /* Heading color */
+.contact-card-view:hover {
+  transform: scale(1.02) !important;
+  overflow: hidden !important;
+  box-shadow: 0 4px 4px 5px rgba(144, 72, 72, 0.561) !important;
 }
 
-.contact-card p {
-  color: #555; /* Paragraph text color */
-}
-
-form {
-  margin-top: 20px;
-  display: flex;
-  flex-direction: column;
-}
-
-label {
-  margin-bottom: 8px;
-  font-weight: bold;
-}
-
-input,
-textarea {
-  padding: 10px;
-  margin-bottom: 16px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-}
-
-button {
-  background-color: #4caf50; /* Green color */
-  color: white;
-  padding: 10px;
+.form-control {
+  background: #513232;
   border: none;
-  border-radius: 5px;
-  cursor: pointer;
+  border-radius: 0px !important;
+  padding: 0.6rem 1rem !important;
+  margin-top: 10px !important;
+  color: #b3a5b3 !important;
 }
 
-button:hover {
-  background-color: #45a049; /* Darker green color on hover */
+.form-control:focus {
+  background: #523479;
+  border-color: transparent;
+  color: white !important;
 }
 
-/* Media query for small screens */
-@media (max-width: 767px) {
-  .contact-card {
-    width: 100%;
-  }
+.form-control::placeholder {
+  color: #b3a5b3 !important;
+}
+
+.btn-submit {
+  border: 2px solid #d22020 !important;
+  border-radius: 12px !important;
+  color: #d22020 !important;
+  background-color: transparent !important;
+  padding: 0.4rem 1.5rem !important;
+  font-weight: 700 !important;
+  transition: 0.3s ease !important;
+}
+
+.btn-submit:hover {
+  background-color: #d22020 !important;
+  color: white !important;
+}
+
+/* --------- */
+/* Portfolio */
+/* --------- */
+.portfolio-section {
+  position: relative !important;
+  padding-top: 150px !important;
+  padding-bottom: 30px !important;
+  background-image: var(--section-background-color) !important;
+  color: white !important;
+}
+
+.portfolio {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  justify-content: center;
+}
+
+.portfolio-left {
+  padding-right: 80px !important;
+}
+
+.portfolio-right {
+  padding-left: 80px !important;
+}
+
+.portfolio .portfolio-title {
+  font-size: 2em;
+  font-weight: 700;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.portfolio .portfolio-item {
+  padding: 0 0 10px 25px;
+  margin-top: -2px;
+  border-left: 2px solid #a84949;
+  position: relative;
+}
+
+.portfolio .portfolio-item .portfolio-title {
+  line-height: 18px;
+  font-size: 0.9em;
+  background: #7934346a;
+  padding: 8px 15px;
+  display: inline-block;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.portfolio .portfolio-item ul {
+  padding-left: 20px;
+  text-align: justify;
+}
+
+.portfolio .portfolio-item ul li {
+  padding-bottom: 10px;
+  list-style: none;
+}
+
+.portfolio .portfolio-item:last-child {
+  padding-bottom: 0;
+}
+
+.portfolio .portfolio-item::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50px;
+  left: -9px;
+  top: 0;
+  background: #fff;
+  border: 2px solid #a84949;
+}
+
+.portfolio-card {
+  box-shadow: 0 4px 5px 3px rgba(136, 53, 53, 0.459) !important;
+  color: white !important;
+  background-color: transparent !important;
+  opacity: 0.9 !important;
+  transition: all 0.5s ease 0s !important;
+}
+
+.portfolio-card-view:hover {
+  transform: scale(1.02) !important;
+  overflow: hidden !important;
+  box-shadow: 0 4px 4px 5px rgba(144, 72, 72, 0.561) !important;
 }
