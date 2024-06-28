@@ -3,6 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
 import ContactForm from "./ContactForm";
 import ContactImage from "../../Assets/contact.svg"; 
+
 function Contact() {
   return (
     <Container fluid className="contact-section">
@@ -13,7 +14,7 @@ function Contact() {
             <ContactForm />
           </Col>
           <Col md={6} style={{ textAlign: "center" }}>
-            <img src={ContactImage} alt="Contact" /> 
+            <img src={ContactImage} alt="Contact" className="contact-image" /> 
           </Col>
         </Row>
       </Container>

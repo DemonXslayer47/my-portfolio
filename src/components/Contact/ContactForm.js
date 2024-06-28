@@ -78,42 +78,39 @@ function ContactForm() {
         Submit
       </Button>
       <p> </p>
-      <p>Feel free to <span className="purple">connect </span>with me
-            </p>
-            <ul className="home-about-social-links">
-              <li className="social-icons">
-                <a
-                  href="https://github.com/demonxslayer47"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiFillGithub />
-                </a>
-              </li>
-              
-              <li className="social-icons">
-                <a
-                  href="https://www.linkedin.com/in/sreehari-thota/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <FaLinkedinIn />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.instagram.com/demonxslayer47"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour home-social-icons"
-                >
-                  <AiFillInstagram />
-                </a>
-              </li>
-            </ul>
-
+      <p>Feel free to <span className="purple">connect </span>with me</p>
+      <ul className="home-about-social-links">
+        <li className="social-icons">
+          <a
+            href="https://github.com/demonxslayer47"
+            target="_blank"
+            rel="noreferrer"
+            className="icon-colour  home-social-icons"
+          >
+            <AiFillGithub />
+          </a>
+        </li>
+        <li className="social-icons">
+          <a
+            href="https://www.linkedin.com/in/sreehari-thota/"
+            target="_blank"
+            rel="noreferrer"
+            className="icon-colour  home-social-icons"
+          >
+            <FaLinkedinIn />
+          </a>
+        </li>
+        <li className="social-icons">
+          <a
+            href="https://www.instagram.com/demonxslayer47"
+            target="_blank"
+            rel="noreferrer"
+            className="icon-colour home-social-icons"
+          >
+            <AiFillInstagram />
+          </a>
+        </li>
+      </ul>
     </Form>
   );
 }
