@@ -41,16 +41,6 @@ function Footer() {
                 <FaLinkedinIn />
               </a>
             </li>
-            <li className="social-icons">
-              <a
-                href="https://www.instagram.com/demonxslayer47/?next=https%3A%2F%2Fwww.instagram.com%2Fdirect%2Ft%2F340282366841710300949128213899827529205%2F%3F__coig_login%3D1"
-                style={{ color: "white" }}
-                target="_blank" 
-                rel="noopener noreferrer"
-              >
-                <AiFillInstagram />
-              </a>
-            </li>
           </ul>
         </Col>
       </Row>
