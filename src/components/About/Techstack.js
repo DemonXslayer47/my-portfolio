@@ -13,8 +13,28 @@ import {
   DiJava,
 } from "react-icons/di";
 import {
-  SiMicrosoftsqlserver, // Assuming this icon exists for MSSQL
-  SiAmazonaws, // Assuming this icon exists for AWS
+  SiOracle,
+  SiMicrosoftsqlserver,
+  SiPostgresql,
+  SiMysql,
+  SiCplusplus,
+  SiHtml5,
+  SiCss3,
+  SiAngular,
+  SiSpringboot,
+  SiJunit5,
+  SiJest,
+  SiGradle,
+  SiDocker,
+  SiKubernetes,
+  SiTerraform,
+  SiJenkins,
+  SiSwagger,
+  SiVisualstudiocode,
+  SiIntellijidea,
+  SiJira,
+  SiSlack,
+  SiConfluence,
 } from "react-icons/si";
 
 function Techstack() {
@@ -29,13 +49,29 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons"><DiReact /></Col>
       <Col xs={4} md={2} className="tech-icons"><DiMongodb /></Col>
       <Col xs={4} md={2} className="tech-icons"><DiGit /></Col>
-      {/* Added Icons - Adjust based on availability */}
       <Col xs={4} md={2} className="tech-icons"><SiMicrosoftsqlserver /></Col>
-      <Col xs={4} md={2} className="tech-icons"><SiAmazonaws /></Col>
-      {/* Placeholder for Web Development, MS Excel, MS PowerPoint - Use custom icons or text */}
-      {/* Placeholder for SQL - If specific icon needed */}
-      {/* Placeholder for Shell Script - Use custom icons or text */}
-      {/* Add more placeholders or icons as needed */}
+      <Col xs={4} md={2} className="tech-icons"><SiOracle /></Col>
+      <Col xs={4} md={2} className="tech-icons"><SiMicrosoftsqlserver /></Col>
+      <Col xs={4} md={2} className="tech-icons"><SiPostgresql /></Col>
+      <Col xs={4} md={2} className="tech-icons"><SiMysql /></Col>
+      <Col xs={4} md={2} className="tech-icons"><SiCplusplus /></Col>
+      <Col xs={4} md={2} className="tech-icons"><SiHtml5 /></Col>
+      <Col xs={4} md={2} className="tech-icons"><SiCss3 /></Col>
+      <Col xs={4} md={2} className="tech-icons"><SiAngular /></Col>
+      <Col xs={4} md={2} className="tech-icons"><SiSpringboot /></Col>
+      <Col xs={4} md={2} className="tech-icons"><SiJunit5 /></Col>
+      <Col xs={4} md={2} className="tech-icons"><SiJest /></Col>
+      <Col xs={4} md={2} className="tech-icons"><SiGradle /></Col>
+      <Col xs={4} md={2} className="tech-icons"><SiDocker /></Col>
+      <Col xs={4} md={2} className="tech-icons"><SiKubernetes /></Col>
+      <Col xs={4} md={2} className="tech-icons"><SiTerraform /></Col>
+      <Col xs={4} md={2} className="tech-icons"><SiJenkins /></Col>
+      <Col xs={4} md={2} className="tech-icons"><SiSwagger /></Col>
+      <Col xs={4} md={2} className="tech-icons"><SiVisualstudiocode /></Col>
+      <Col xs={4} md={2} className="tech-icons"><SiIntellijidea /></Col>
+      <Col xs={4} md={2} className="tech-icons"><SiJira /></Col>
+      <Col xs={4} md={2} className="tech-icons"><SiSlack /></Col>
+      <Col xs={4} md={2} className="tech-icons"><SiConfluence /></Col>
     </Row>
   );
 }

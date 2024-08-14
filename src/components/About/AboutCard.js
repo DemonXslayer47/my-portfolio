@@ -19,33 +19,16 @@ function AboutCard() {
           <div className="col-md-8">
             <blockquote className="blockquote mb-0">
               <p style={{ textAlign: "justify" }}>
-                Hi Everyone, I am <span className="purple">Sreehari Thota</span>
-                 from <span className="purple">Saint Louis, Missouri</span>
+                Hi Everyone, I am <span className="purple">Sreehari Thota </span> 
+                from <span className="purple"> Saint Louis, Missouri </span>.
                 <br />
-                I am currently studying at Saint Louis University.
-                <br />
-                I am searching for jobs in fields like DevOps and Data Analytics.
+                I am a Java Full-Stack Developer with a 7 years of experiance and holds a <span className="purple">Master's degree in Computer Science</span> from <span className="blue">Saint Louis University. </span>
                 <br />
                 <br />
-                Apart from coding, some other activities that I love to do!
+                I also hold a <span className="purple">certification</span> as an <span className="purple">AWS Certified Solutions Architect - Associate. </span>
+                <br />
+                <br />
               </p>
-              <ul>
-                <li className="about-activity">
-                  <ImPointRight /> Cooking
-                </li>
-                <li className="about-activity">
-                  <ImPointRight /> Playing Games
-                </li>
-                <li className="about-activity">
-                  <ImPointRight /> Reading comics
-                </li>
-                <li className="about-activity">
-                  <ImPointRight /> Travelling
-                </li>
-                <li className="about-activity">
-                  <ImPointRight /> Photography
-                </li>
-              </ul>
               <p style={{ color: "rgb(150 10 10)" }}>
                 "Strive to build things that make a difference!"{" "}
               </p>

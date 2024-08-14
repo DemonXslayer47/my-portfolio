@@ -18,6 +18,9 @@ html {
   color: var(--imp-text-color) !important;
 }
 
+.blue {
+  color: #002fff;
+}
 button:focus {
   box-shadow: none !important;
 }

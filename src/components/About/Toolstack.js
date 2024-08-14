@@ -9,26 +9,33 @@ import {
   SiJenkins,
   SiDocker,
   SiLinux,
-  SiTableau, // Assuming this icon exists
+  SiTableau, 
+  SiTerraform,
+  SiBitbucket,
+  SiConfluence,
+  SiTrello,
+  SiAzuredevops, // Assuming this icon exists for Azure DevOps
 } from "react-icons/si";
-// Import other icons if available or use placeholders
+import { FaAws } from "react-icons/fa"; // AWS Icon from FontAwesome
 
 function Toolstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-      {/* Existing Icons */}
       <Col xs={4} md={2} className="tech-icons"><SiVisualstudiocode /></Col>
       <Col xs={4} md={2} className="tech-icons"><SiPostman /></Col>
       <Col xs={4} md={2} className="tech-icons"><SiSlack /></Col>
-      {/* Added Icons - Adjust based on availability */}
       <Col xs={4} md={2} className="tech-icons"><SiJira /></Col>
       <Col xs={4} md={2} className="tech-icons"><SiCircleci /></Col>
       <Col xs={4} md={2} className="tech-icons"><SiJenkins /></Col>
       <Col xs={4} md={2} className="tech-icons"><SiDocker /></Col>
       <Col xs={4} md={2} className="tech-icons"><SiLinux /></Col>
       <Col xs={4} md={2} className="tech-icons"><SiTableau /></Col>
-      {/* Placeholder for Communication and Team Management, Time Management, Critical Thinking - Use custom icons or text */}
-      {/* Add more placeholders or icons as needed */}
+      <Col xs={4} md={2} className="tech-icons"><SiTerraform /></Col>
+      <Col xs={4} md={2} className="tech-icons"><SiBitbucket /></Col>
+      <Col xs={4} md={2} className="tech-icons"><SiConfluence /></Col>
+      <Col xs={4} md={2} className="tech-icons"><SiTrello /></Col>
+      <Col xs={4} md={2} className="tech-icons"><FaAws /></Col>
+      <Col xs={4} md={2} className="tech-icons"><SiAzuredevops /></Col>
     </Row>
   );
 }
