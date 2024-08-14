@@ -41,7 +41,6 @@ function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       {/* Existing Icons */}
-      <Col xs={4} md={2} className="tech-icons"><CgCPlusPlus /></Col>
       <Col xs={4} md={2} className="tech-icons"><DiJavascript1 /></Col>
       <Col xs={4} md={2} className="tech-icons"><DiPython /></Col>
       <Col xs={4} md={2} className="tech-icons"><DiJava /></Col>
@@ -49,7 +48,6 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons"><DiReact /></Col>
       <Col xs={4} md={2} className="tech-icons"><DiMongodb /></Col>
       <Col xs={4} md={2} className="tech-icons"><DiGit /></Col>
-      <Col xs={4} md={2} className="tech-icons"><SiMicrosoftsqlserver /></Col>
       <Col xs={4} md={2} className="tech-icons"><SiOracle /></Col>
       <Col xs={4} md={2} className="tech-icons"><SiMicrosoftsqlserver /></Col>
       <Col xs={4} md={2} className="tech-icons"><SiPostgresql /></Col>
@@ -67,11 +65,6 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons"><SiTerraform /></Col>
       <Col xs={4} md={2} className="tech-icons"><SiJenkins /></Col>
       <Col xs={4} md={2} className="tech-icons"><SiSwagger /></Col>
-      <Col xs={4} md={2} className="tech-icons"><SiVisualstudiocode /></Col>
-      <Col xs={4} md={2} className="tech-icons"><SiIntellijidea /></Col>
-      <Col xs={4} md={2} className="tech-icons"><SiJira /></Col>
-      <Col xs={4} md={2} className="tech-icons"><SiSlack /></Col>
-      <Col xs={4} md={2} className="tech-icons"><SiConfluence /></Col>
     </Row>
   );
 }
