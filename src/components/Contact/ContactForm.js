@@ -19,7 +19,7 @@ function ContactForm() {
         </li>
         <li className="social-icons">
           <a
-            href="https://www.linkedin.com/in/sreehari-thota/"
+            href="https://www.linkedin.com/in/sreehari-t-494887322/"
             target="_blank"
             rel="noreferrer"
             className="icon-colour home-social-icons"
@@ -29,7 +29,7 @@ function ContactForm() {
         </li>
         <li className="social-icons">
           <a
-            href="mailto:sreeharithota01@gmail.com"
+            href="mailto:t.sreehari16@gmail.com"
             className="icon-colour home-social-icons"
           >
             <AiFillMail /> 
