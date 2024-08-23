@@ -22,7 +22,7 @@ function AboutCard() {
                 Hi Everyone, I am <span className="purple">Sreehari Thota </span> 
                 from <span className="purple"> Saint Louis, Missouri </span>.
                 <br />
-                I am a Java Full-Stack Developer with a 7 years of experiance and holds a <span className="purple">Master's degree in Computer Science</span> from <span className="blue">Saint Louis University. </span>
+                I am a Java Full-Stack Developer with 8 years of experiance and holds a <span className="purple">Master's degree in Computer Science</span> from <span className="blue">Saint Louis University. </span>
                 <br />
                 <br />
                 I also hold a <span className="purple">certification</span> as an <span className="purple">AWS Certified Solutions Architect - Associate. </span>

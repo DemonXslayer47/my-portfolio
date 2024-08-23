@@ -13,7 +13,7 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I am a highly skilled Senior Java Full-Stack Developer with over 7 years of experience 
+              I am a highly skilled Senior Java Full-Stack Developer with over 8 years of experience 
               in crafting scalable and secure enterprise and web applications across diverse domains.
               <br />
               <br />I have expertise in building responsive and dynamic user interfaces using
