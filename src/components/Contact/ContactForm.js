@@ -19,7 +19,7 @@ function ContactForm() {
         </li>
         <li className="social-icons">
           <a
-            href="https://www.linkedin.com/in/sreehari-t-494887322/"
+            href="https://www.linkedin.com/in/sreeharithota/"
             target="_blank"
             rel="noreferrer"
             className="icon-colour home-social-icons"
@@ -37,7 +37,7 @@ function ContactForm() {
         </li>
         <li className="social-icons">
           <a
-            href="tel:3142990809"
+            href="tel:3146750001"
             className="icon-colour home-social-icons"
           >
             <AiFillPhone /> 
