@@ -35,12 +35,14 @@ import {
   SiJira,
   SiSlack,
   SiConfluence,
+  SiDjango,
+  SiFlask,
+  SiFastapi,
 } from "react-icons/si";
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-      {/* Existing Icons */}
       <Col xs={4} md={2} className="tech-icons"><DiJavascript1 /></Col>
       <Col xs={4} md={2} className="tech-icons"><DiPython /></Col>
       <Col xs={4} md={2} className="tech-icons"><DiJava /></Col>
@@ -65,6 +67,14 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons"><SiTerraform /></Col>
       <Col xs={4} md={2} className="tech-icons"><SiJenkins /></Col>
       <Col xs={4} md={2} className="tech-icons"><SiSwagger /></Col>
+      <Col xs={4} md={2} className="tech-icons"><SiVisualstudiocode /></Col>
+      <Col xs={4} md={2} className="tech-icons"><SiIntellijidea /></Col>
+      <Col xs={4} md={2} className="tech-icons"><SiJira /></Col>
+      <Col xs={4} md={2} className="tech-icons"><SiSlack /></Col>
+      <Col xs={4} md={2} className="tech-icons"><SiConfluence /></Col>
+      <Col xs={4} md={2} className="tech-icons"><SiDjango /></Col>
+      <Col xs={4} md={2} className="tech-icons"><SiFlask /></Col>
+      <Col xs={4} md={2} className="tech-icons"><SiFastapi /></Col>
     </Row>
   );
 }

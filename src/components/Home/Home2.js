@@ -13,7 +13,7 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I am a highly skilled Senior Java Full-Stack Developer with over 8 years of experience 
+              I am a highly skilled Senior Full-Stack Developer with over 8 years of experience 
               in crafting scalable and secure enterprise and web applications across diverse domains.
               <br />
               <br />I have expertise in building responsive and dynamic user interfaces using
@@ -24,38 +24,47 @@ function Home2() {
               <br />
               My skill set includes proficiency in
               <i>
-                <b className="purple"> JavaScript, TypeScript, and modern frameworks like React.js and Angular. </b>
+                <b className="purple"> JavaScript, TypeScript, Python, and modern frameworks like React.js, Angular, Flask, Django, and FastAPI. </b>
               </i>
               <br />
               <br />
+              I'm well-versed in
               <i>
                 <b className="purple"> Java/J2EE technologies</b>
               </i>
               and have implemented Microservices Architecture using
               <i>
-                <b className="purple"> Spring Boot and Spring Cloud </b>
+                <b className="purple"> Spring Boot, Spring Cloud, and Python-based microservices frameworks. </b>
               </i>
-              to transition from monolithic to microservices-based systems.
               <br />
               <br />
-              My experience also spans API development, Secure Coding Practices, and extensive work with
+              My experience spans API development in both Java and Python ecosystems, Secure Coding Practices, and extensive work with
               <i>
                 <b className="purple"> both Relational and NoSQL Databases. </b>
               </i>
-              Additionally, I have expertise in deploying and managing applications on
+              <br />
+              <br />
+              I have expertise in deploying and managing applications on
               <i>
                 <b className="purple"> AWS and Azure platforms</b>
               </i>
-              , containerization using Docker, and orchestration with Kubernetes.
+              , containerization using Docker, and orchestration with Kubernetes for both Java and Python applications.
+              <br />
+              <br />
+              I am proficient in developing high-performance web applications using
+              <i>
+                <b className="purple"> Python frameworks like Flask for lightweight solutions, Django for full-featured apps, and FastAPI for building fast, modern APIs. </b>
+              </i>
               <br />
               <br />
               I am a strong advocate of Agile and Scrum methodologies and excel in continuous integration and deployment pipelines using
               <i>
-                <b className="purple"> Jenkins and Terraform.</b>
+                <b className="purple"> Jenkins, GitLab CI/CD, and Terraform</b>
               </i>
+              for both Java and Python projects.
               <br />
               <br />
-              My commitment to delivering high-quality software is matched by my excellent communication and teamwork skills, fostering a collaborative environment to achieve project goals efficiently.
+              My commitment to delivering high-quality software is matched by my excellent communication and teamwork skills, fostering a collaborative environment to achieve project goals efficiently across multiple technology stacks.
             </p>
           </Col>
           <Col md={4} className="myAvtar">

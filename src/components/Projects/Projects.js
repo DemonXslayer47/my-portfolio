@@ -18,7 +18,7 @@ function Projects() {
             <ProjectCard
               title="Realtor, Phoenix, Arizona"
               date="August 2022 - Present"
-              role="Java Full Stack Developer"
+              role="Full Stack Developer"
               description="Developed the Integrated Property Management System, a platform that streamlines real estate operations using Angular, Java 11, Spring Boot, and AWS services."
             />
           </Col>
@@ -28,7 +28,7 @@ function Projects() {
             <ProjectCard
               title="Yahoo Inc, Atlanta"
               date="April 2021 - October 2022"
-              role="Java Full Stack Developer"
+              role="Full Stack Developer"
               description="Worked on the Yahoo Sports Platform Revamp project, modernizing and enhancing the user experience across Yahoo Sports' digital platforms using React, Spring Boot, and AWS."
             />
           </Col>
@@ -38,7 +38,7 @@ function Projects() {
             <ProjectCard
               title="First Citizens BancShares, Raleigh NC"
               date="November 2019 - April 2021"
-              role="Java Full Stack Developer"
+              role="Full Stack Developer"
               description="Developed the Community Association Banking System (CABS) to enhance financial management capabilities of community associations using Angular, Java, Spring Boot, and Azure."
             />
           </Col>
@@ -48,7 +48,7 @@ function Projects() {
             <ProjectCard
               title="Ambient Clinical Analytics, Rochester MN"
               date="August 2018 - November 2019"
-              role="Java Full Stack Developer"
+              role="Full Stack Developer"
               description="Worked on the development of the Integrated Care Management Platform (ICMP), a comprehensive healthcare solution using Angular 13, Java 17, Spring Boot, and AWS."
             />
           </Col>
