@@ -22,12 +22,6 @@ function Home2() {
               </i>
               <br />
               <br />
-              My skill set includes proficiency in
-              <i>
-                <b className="purple"> JavaScript, TypeScript, Python, and modern frameworks like React.js, Angular, Flask, Django, and FastAPI. </b>
-              </i>
-              <br />
-              <br />
               I'm well-versed in
               <i>
                 <b className="purple"> Java/J2EE technologies</b>
@@ -49,12 +43,6 @@ function Home2() {
                 <b className="purple"> AWS and Azure platforms</b>
               </i>
               , containerization using Docker, and orchestration with Kubernetes for both Java and Python applications.
-              <br />
-              <br />
-              I am proficient in developing high-performance web applications using
-              <i>
-                <b className="purple"> Python frameworks like Flask for lightweight solutions, Django for full-featured apps, and FastAPI for building fast, modern APIs. </b>
-              </i>
               <br />
               <br />
               I am a strong advocate of Agile and Scrum methodologies and excel in continuous integration and deployment pipelines using
