@@ -29,7 +29,7 @@ function ContactForm() {
         </li>
         <li className="social-icons">
           <a
-            href="mailto:t.sreehari16@gmail.com"
+            href="mailto:sreeharithota01@gmail.com"
             className="icon-colour home-social-icons"
           >
             <AiFillMail /> 
@@ -37,7 +37,7 @@ function ContactForm() {
         </li>
         <li className="social-icons">
           <a
-            href="tel:3146750001"
+            href="tel:3146490205"
             className="icon-colour home-social-icons"
           >
             <AiFillPhone /> 

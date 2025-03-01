@@ -12,64 +12,36 @@ function Projects() {
         <h1 className="project-heading">
           Professional <strong className="purple">Experience</strong>
         </h1>
-       
+        
         <Row className="project-row">
           <Col md={6} className="project-card project-left">
             <ProjectCard
-              title="Realtor, Phoenix, Arizona"
-              date="August 2022 - Present"
-              role="Java Backend Developer"
-              description="Developed the Integrated Property Management System, a platform that streamlines real estate operations using Angular, Java 11, Spring Boot, and AWS services."
+              title="Geisinger Health System"
+              date="June 2023 - Present"
+              role="Associate Developer"
+              description="Developed dynamic user interfaces using React.js with Hooks, Redux, and Context API for state management. Integrated frontend with Spring Boot APIs, ensuring form validations, error handling, and responsiveness. Worked with AWS CloudWatch for monitoring and implemented FHIR standards for healthcare data exchange."
             />
           </Col>
         </Row>
+        
         <Row className="project-row">
           <Col md={{ span: 6, offset: 6 }} className="project-card project-right">
             <ProjectCard
-              title="Yahoo Inc, Atlanta"
-              date="April 2021 - October 2022"
-              role="Backend Developer - Java"
-              description="Worked on the Yahoo Sports Platform Revamp project, modernizing and enhancing the user experience across Yahoo Sports' digital platforms using React, Spring Boot, and AWS."
-            />
-          </Col>
-        </Row>
-        <Row className="project-row">
-          <Col md={6} className="project-card project-left">
-            <ProjectCard
-              title="First Citizens BancShares, Raleigh NC"
-              date="November 2019 - April 2021"
+              title="Costco"
+              date="December 2020 - August 2022"
               role="Java Developer"
-              description="Developed the Community Association Banking System (CABS) to enhance financial management capabilities of community associations using Angular, Java, Spring Boot, and Azure."
+              description="Developed e-commerce applications using Java, Spring Boot, and Microservices. Built RESTful APIs for order management, integrated React.js frontend with backend services, and implemented OAuth2 and JWT for user authentication. Utilized AWS S3, CloudWatch, and Kubernetes for deployment and monitoring."
             />
           </Col>
         </Row>
+        
         <Row className="project-row">
-          <Col md={{ span: 6, offset: 6 }} className="project-card project-right">
+          <Col md={6} className="project-card project-left">
             <ProjectCard
-              title="Ambient Clinical Analytics, Rochester MN"
-              date="August 2018 - November 2019"
+              title="Northern Trust"
+              date="January 2019 - December 2020"
               role="Java Developer"
-              description="Worked on the development of the Integrated Care Management Platform (ICMP), a comprehensive healthcare solution using Angular 13, Java 17, Spring Boot, and AWS."
-            />
-          </Col>
-        </Row>
-        <Row className="project-row">
-          <Col md={6} className="project-card project-left">
-            <ProjectCard
-              title="TechTree IT systems Pvt Ltd., Bangalore, India"
-              date="June 2017 - August 2018"
-              role="Associate Software Engineer"
-              description="Designed and implemented the Inventory Management System (IMS) for a retail chain using Java, Spring MVC, and AWS services."
-            />
-          </Col>
-        </Row>
-        <Row className="project-row">
-          <Col md={6} className="project-card project-left">
-            <ProjectCard
-              title="TechTree IT systems Pvt Ltd., Bangalore, India"
-              date="June 2016 - June 2017"
-              role="Software Engineer Intern"
-              description="Designed and implemented the Inventory Management System (IMS) for a retail chain using Java, Spring MVC, and AWS services."
+              description="Developed enterprise-grade financial applications using Java, Spring Boot, and Microservices. Integrated Kafka for real-time transaction processing and developed secure APIs with OAuth 2.0 and JWT. Deployed applications using Azure Kubernetes Service (AKS) and Azure DevOps for CI/CD automation."
             />
           </Col>
         </Row>
